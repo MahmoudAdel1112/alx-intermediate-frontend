@@ -1,0 +1,7 @@
+First we run the command:
+    npm install -g sass
+
+Second we check the version that we have with the command:
+    sass --version
+
+    in my case i have 1.89.0

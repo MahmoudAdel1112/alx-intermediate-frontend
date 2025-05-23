@@ -1,0 +1,11 @@
+@mixin hamada($margin-left: 0, $margin-right: 0){
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+}
+
+body{
+    @include hamada(10px, 10px);
+}
+div{
+    @include hamada(15px,15px);
+}
